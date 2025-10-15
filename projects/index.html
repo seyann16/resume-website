@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Spectrum | Interactive Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Color Spectrum Explorer</h1>
+        <p class="subtitle">An interactive demonstration of JavaScript DOM manipulation with dynamic color transitions</p>
+    </header>
+
+    <div class="container">
+        <div class="demo-area">
+            <div class="color-box" id="colorBox">
+                Color Display
+            </div>
+            <div class="controls">
+                <div class="button-group">
+                    <button class="primary-btn" id="randomColor">Random Color</button>
+                    <button id="redColor">Red</button>
+                    <button id="blueColor">Blue</button>
+                    <button id="greenColor">Green</button>
+                    <button id="purpleColor">Purple</button>
+                    <button id="resetColor">Reset</button>
+                </div>
+    
+                <div class="color-display">
+                    Current Color: <span id="currentColor">#3498db</span>
+                </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="info-section">
+        <h2>How It Works</h2>
+        <p>This interactive demo showcases JavaScript's ability to manipulate DOM elements in real-time. Each button triggers a JavaScript function that changes the background color of the display box, demonstrating event handling and dynamic styling.</p>
+        <p>The color transitions are smooth thanks to CSS transitions, creating a polished user experience.</p>
+    </div>
+
+    <footer>
+        <p>Created for Web Development Portfoli | Color Spectrum Explorer by SeyannDev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
